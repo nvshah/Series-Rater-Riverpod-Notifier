@@ -1,16 +1,30 @@
-# riverpod_statenotifier_rater
+# Series Rater
 
-A new Flutter project.
+Flutter project to study concepts of riverpod & state-notifier
 
-## Getting Started
+### Concept to Grab
 
-This project is a starting point for a Flutter application.
+This app is meant to study the concepts of riverpod & state-notifier
 
-A few resources to get you started if this is your first Flutter project:
+**Gist**
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+> RiverPod  
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    It is used to provide classes down the widget tree
+    under given ProviderScope
+
+    classes used
+    - ProviderScope()
+    - Provider<T>()
+    - Consumer()
+    - ProviderListener<T>(), etc...
+
+> StateNotifier (Immutable State Management )
+
+    It is one of the State Management Solution.
+    unlike ValueNotifier, It does not allows to modify state from outside
+
+    It is integrated to use with riverpod efficiently
+
+    classes to keep in focus :
+    - StateNotifierProvider<T>()
